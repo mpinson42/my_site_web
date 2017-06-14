@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <title>Titre</title>
+    </head>
+
+    <body>
+    	<header>
+    			<h1 >projet<img src="picture/menu.png" id=image2 onclick="degage()" alt="Photo de montagne"/></h1>
+
+		</header>
+		<nav id="navigation">
+            
+                <a class=sans_border href="index.html">Accueil</a>
+                <a class=sans_border href="projet.html">projet</a>
+                 <a class=sans_border href="cv.html">CV</a>
+            
+        </nav>
+
+
+        <div id="section2">
+        	<div class="column33">
+        		<a class="center">lem-in</a><br><br>
+            	<a href="lem-in.html"><img src="picture/lem-in.png" class=minishell alt="Photo de montagne"/></a>
+        	</div>
+            <a class=non>00</a>
+        	<div class="column33">
+        	   	<a class="center">minishell</a><br>
+         	   <a href="minishell.html"><img src="picture/minishell.png" class=minishell alt="Photo de montagne"/></a>
+
+        	</div>
+            <a class=non>00</a>
+        	<div class="column33">
+        		<a class="center">ft_ls</a><br><br>
+           		<a href="ls.html"><img src="picture/ls.png" class=minishell alt="Photo de montagne"/></a>
+        	</div>
+            
+            <div class="column33">
+        		<a class="center">get_next_line</a><br><br>
+           		<a href="get_next_line.html"><img src="picture/get.png" class=minishell alt="Photo de montagne"/></a>
+        	</div>
+            <a class=non>00</a>
+        	<div class="column33">
+        		<a class="center">libft</a><br><br>
+           		<a href="libft.html"><img src="picture/libft.jpg" class=minishell alt="Photo de montagne"/></a>
+        	</div>
+            <a class=non>00</a>
+            <div class="column33">
+        		<a class="center">ft_printf</a><br><br>
+           		<a href="ft_printf.html"><img src="picture/printf.jpg" class=minishell alt="Photo de montagne"/></a>
+        	</div>
+
+            <div class="column33">
+                <a class="center">filler</a><br><br>
+                <a href="filler.html"><img src="picture/filler.png" class=minishell alt="Photo de montagne"/></a>
+            </div>
+            <a class=non>00</a>
+            <div class="column33">
+                <a class="center">fillit</a><br><br>
+                <a href="fillit.html"><img src="picture/fillit.png" class=minishell alt="Photo de montagne"/></a>
+            </div>
+            <a class=non>00</a>
+            <div class="column33">
+                <a class="center">malloc</a><br><br>
+                <a href="malloc.html"><img src="picture/malloc.jpg" class=minishell alt="Photo de montagne"/></a>
+            </div>
+
+            <div class="column33">
+                <a class="center">site wordpress</a><br><br>
+                <a href="wordpress.html"><img src="picture/wordpress.png" class=minishell alt="Photo de montagne"/></a>
+            </div>
+            <a class=non>00</a>
+             <div class="column33">
+                <a class="center">ft_select</a><br><br>
+                <a href="ft_select.html"><img src="picture/ft_select.png" class=minishell alt="Photo de montagne"/></a>
+            </div>
+            
+        </div>
+ <!--	<br /><br /><br /><br />
+    	<p class=sans>Bonjour et bienvenue sur mon site !</p>
+    	<p class=sans>consulter mes projet :  <a href="projet.html">projet</a></p> -->
+		<footer>
+    		<a href="https://github.com/yunikki"><img src="picture/GitHub.jpg" width="100" height="40" alt="Photo de montagne" /></a>
+		</footer>
+        <script type="text/javascript">
+            var nav = document.getElementById("navigation");
+            function degage(){
+                if($('#navigation').css('right') == "-180px"){
+                                $("#image2").css('transform', 'rotate(90deg)');
+                                $('#navigation').css('right', '0px');
+                            }else{
+                                $("#image2").css('transform', 'rotate(0deg)');
+                                $('#navigation').css('right', '-180px');
+
+                            }
+            }
+        </script>
+    </body>
+</html>
